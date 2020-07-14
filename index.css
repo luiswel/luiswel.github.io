@@ -516,9 +516,6 @@ body
    border: 0px solid #2F3337;
    box-sizing: border-box;
    margin: 0;
-   margin-right: auto;
-   margin-left: auto;
-   max-width: 1024px;
 }
 #footer_top
 {
@@ -626,56 +623,6 @@ body
    text-align: left;
 }
 #wb_Text7 div
-{
-   text-align: left;
-}
-#wb_FontAwesomeIcon2
-{
-   background-color: #2BC6F6;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   border-radius: 4px;
-   text-align: center;
-   margin: 0px 10px 0px 0px;
-   padding: 10px 10px 10px 10px;
-   vertical-align: top;
-   display:inline-block;
-   position:relative;
-}
-#wb_FontAwesomeIcon2:hover
-{
-   background-color: #2BC6F6;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-}
-#FontAwesomeIcon2
-{
-   height: 16px;
-   width: 16px;
-}
-#FontAwesomeIcon2 i
-{
-   color: #FFFFFF;
-   display: inline-block;
-   font-size: 16px;
-   line-height: 16px;
-   vertical-align: middle;
-   width: 13px;
-}
-#wb_FontAwesomeIcon2:hover i
-{
-   color: #FFFFFF;
-}
-#wb_Text9 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text9 div
 {
    text-align: left;
 }
@@ -999,6 +946,173 @@ body
    clear: both;
 }
 #gallery .visible-col4
+{
+   display: block;
+}
+#wb_Image5
+{
+   margin: 0;
+   vertical-align: top;
+}
+#Image5
+{
+   border: 0px solid #000000;
+   padding: 0;
+   display: inline-block;
+   width: 940px;
+   height: 287px;
+   vertical-align: top;
+}
+#wb_Text9 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text9 div
+{
+   text-align: left;
+}
+#wb_LayoutGrid1
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid1
+{
+   box-sizing: border-box;
+   padding: 25px 15px 25px 15px;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 1140px;
+}
+#LayoutGrid1 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGrid1:before,
+#LayoutGrid1:after,
+#LayoutGrid1 .row:before,
+#LayoutGrid1 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid1:after,
+#LayoutGrid1 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid1 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#PhotoGallery1
+{
+   box-sizing: border-box;
+   font-size: 0;
+   width: 100%;
+   height: 100%;
+   table-layout: fixed;
+   display: table;
+   margin: 0;
+}
+#PhotoGallery1 .thumbnails
+{
+   margin: 0;
+}
+#PhotoGallery1 .thumbnail
+{
+   position: relative;
+   min-height: 1px;
+   box-sizing: border-box;
+   float: left;
+   padding: 10px 10px 10px 10px;
+   width: 25%;
+   text-align: center;
+   vertical-align: top;
+}
+#PhotoGallery1 .caption
+{
+   color: #969696;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 15px;
+   margin: 0;
+   text-align: left;
+   text-decoration: none;
+   padding: 8px 0px 8px 0px;
+   position: relative;
+}
+#PhotoGallery1 .description
+{
+   color: #969696;
+   font-weight: normal;
+   font-size: 12px;
+   font-style: normal;
+   text-align: left;
+}
+#PhotoGallery1 .thumbnail img
+{
+   border: 0px #DDDDDD solid;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 100%;
+   box-sizing: border-box;
+}
+#PhotoGallery1 .clearfix:before,
+#PhotoGallery1 .clearfix:after,
+#PhotoGallery1 .thumbnails:before,
+#PhotoGallery1 .thumbnails:after
+{
+   display: table;
+   content: " ";
+}
+#PhotoGallery1 .clearfix:after,
+#PhotoGallery1 .thumbnails:after
+{
+   clear: both;
+}
+#PhotoGallery1 .visible-col4
 {
    display: block;
 }

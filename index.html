@@ -5,7 +5,6 @@
 <title>Untitled Page</title>
 <meta name="generator" content="WYSIWYG Web Builder 15 Trial Version - http://www.wysiwygwebbuilder.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="font-awesome.min.css" rel="stylesheet">
 <link href="exo3_poster.css" rel="stylesheet">
 <link href="index.css" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
@@ -17,7 +16,10 @@ $(document).ready(function()
 {
    $('#wb_LayoutGrid5').parallax();
    $("a[data-rel='gallery']").attr('rel', 'gallery');
-   $("#gallery").magnificPopup({delegate:'a', type:'image', gallery: {enabled: true, navigateByImgClick: true}});
+   $("#gallery").magnificPopup({delegate:'a', type:'image', gallery: {enabled: true, navigateByImgClick: true}
+});
+   $("a[data-rel='PhotoGallery1']").attr('rel', 'PhotoGallery1');
+   $("#PhotoGallery1").magnificPopup({delegate:'a', type:'image', gallery: {enabled: true, navigateByImgClick: true}});
 });
 </script>
 </head>
@@ -83,11 +85,11 @@ $(document).ready(function()
 <p style="color:#000000;">We employ a sample of 19 exoplanets spanning from cool mini-Neptunes to hot Jupiters, with equilibrium temperatures between ~300 and 2700 K.</p>
 <p>&nbsp;</p>
 <ul style="color:#000000;list-style-type:disc;">
-<li style="margin:0 0 0 24px;">Among our sample, we find a mass-metallicity trend of <span style="font-weight:bold;">increasing H</span><span style="font-weight:bold;vertical-align:sub;font-size:smaller;">2</span><span style="font-weight:bold;">O abundances with decreasing mass</span>, spanning generally substellar values for gas giants and stellar/superstellar for Neptunes and mini-Neptunes. 
+<li style="margin:0 0 0 24px;">Among our sample, we find a mass-metallicity trend of <span style="font-weight:bold;">increasing H</span><span style="font-weight:bold;vertical-align:sub;font-size:smaller;">2</span><span style="font-weight:bold;">O abundances with decreasing mass</span>, spanning generally substellar values for gas giants and stellar/superstellar for Neptunes and mini-Neptunes.
 </li>
-<li style="margin:0 0 0 24px;">However, <span style="font-weight:bold;">the overall trend in H2O abundances, is significantly lower than the mass-metallicity relation for carbon in the solar system giant planets </span>and similar predictions for exoplanets. 
+<li style="margin:0 0 0 24px;">However, <span style="font-weight:bold;">the overall trend in H2O abundances, is significantly lower than the mass-metallicity relation for carbon in the solar system giant planets </span>and similar predictions for exoplanets.
 </li>
-<li style="margin:0 0 0 24px;">On the other hand<span style="font-weight:bold;">, the Na and K abundances for the gas giants are stellar or superstellar</span>, consistent with each other, and generally consistent with the solar system metallicity trend. 
+<li style="margin:0 0 0 24px;">On the other hand<span style="font-weight:bold;">, the Na and K abundances for the gas giants are stellar or superstellar</span>, consistent with each other, and generally consistent with the solar system metallicity trend.
 </li>
 </ul>
 <p>&nbsp;</p>
@@ -156,55 +158,76 @@ $(document).ready(function()
 <div class="row">
 <div class="col-1">
 <div id="wb_Heading7" style="display:inline-block;width:100%;z-index:19;">
-<h1 id="Heading7">Gallery</h1>
+<h1 id="Heading7">Click below to read more about our work</h1>
 </div>
 <div id="wb_gallery" style="display:inline-block;width:100%;z-index:20;">
 <div id="gallery">
    <div class="thumbnails">
       <div class="thumbnail">
-         <a href="images/number1.png" data-rel="" title="Photo Number 1"><img alt="Photo Number 1" src="images/number1.png" title="Photo Number 1"></a>
-<div class="caption">Photo Number 1<div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</div>
-</div>
+         <a href="https://luiswelbankscom.files.wordpress.com/2020/07/slide1.png" data-rel="" title="Motivation"><img alt="Motivation" src="https://luiswelbankscom.files.wordpress.com/2020/07/slide1.png" title="Motivation"></a>
+<div class="caption">Motivation</div>
       </div>
       <div class="thumbnail">
-         <a href="images/number2.png" data-rel="" title="Photo Number 2"><img alt="Photo Number 2" src="images/number2.png" title="Photo Number 2"></a>
-<div class="caption">Photo Number 2<div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</div>
-</div>
+         <a href="https://luiswelbankscom.files.wordpress.com/2020/07/slide2-1.png" data-rel="" title="This work"><img alt="This work" src="https://luiswelbankscom.files.wordpress.com/2020/07/slide2-1.png" title="This work"></a>
+<div class="caption">This work</div>
       </div>
       <div class="thumbnail">
-         <a href="images/number3.png" data-rel="" title="Photo Number 3"><img alt="Photo Number 3" src="images/number3.png" title="Photo Number 3"></a>
-<div class="caption">Photo Number 3<div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</div>
-</div>
+         <a href="https://luiswelbankscom.files.wordpress.com/2020/07/slide3.png" data-rel="" title="Retrievals"><img alt="Retrievals" src="https://luiswelbankscom.files.wordpress.com/2020/07/slide3.png" title="Retrievals"></a>
+<div class="caption">Retrievals</div>
       </div>
       <div class="thumbnail">
-         <a href="images/number4.png" data-rel="" title="Photo Number 4"><img alt="Photo Number 4" src="images/number4.png" title="Photo Number 4"></a>
-<div class="caption">Photo Number 4<div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</div>
-</div>
+         <a href="https://luiswelbankscom.files.wordpress.com/2020/07/slide4.png" data-rel="" title="Atmospheric Model"><img alt="Atmospheric Model" src="https://luiswelbankscom.files.wordpress.com/2020/07/slide4.png" title="Atmospheric Model"></a>
+<div class="caption">Atmospheric Model</div>
       </div>
       <div class="clearfix visible-col4"></div>
       <div class="thumbnail">
-         <a href="images/number5.png" data-rel="" title="Photo Number 5"><img alt="Photo Number 5" src="images/number5.png" title="Photo Number 5"></a>
-<div class="caption">Photo Number 5<div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</div>
-</div>
+         <a href="https://luiswelbankscom.files.wordpress.com/2020/07/slide5.png" data-rel="" title="The sample"><img alt="The sample" src="https://luiswelbankscom.files.wordpress.com/2020/07/slide5.png" title="The sample"></a>
+<div class="caption">The sample</div>
       </div>
       <div class="thumbnail">
-         <a href="images/number6.png" data-rel="" title="Photo Number 6"><img alt="Photo Number 6" src="images/number6.png" title="Photo Number 6"></a>
-<div class="caption">Photo Number 6<div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</div>
-</div>
+         <a href="https://luiswelbankscom.files.wordpress.com/2020/07/slide6.png" data-rel="" title="Findings"><img alt="Findings" src="https://luiswelbankscom.files.wordpress.com/2020/07/slide6.png" title="Findings"></a>
+<div class="caption">Findings</div>
       </div>
       <div class="thumbnail">
-         <a href="images/number7.png" data-rel="" title="Photo Number 7"><img alt="Photo Number 7" src="images/number7.png" title="Photo Number 7"></a>
-<div class="caption">Photo Number 7<div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</div>
-</div>
+         <a href="https://luiswelbankscom.files.wordpress.com/2020/07/slide7.png" data-rel="" title="IR spectra"><img alt="IR spectra" src="https://luiswelbankscom.files.wordpress.com/2020/07/slide7.png" title="IR spectra"></a>
+<div class="caption">IR spectra</div>
       </div>
       <div class="thumbnail">
-         <a href="images/number8.png" data-rel="" title="Photo Number 8"><img alt="Photo Number 8" src="images/number8.png" title="Photo Number 8"></a>
-<div class="caption">Photo Number 8<div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</div>
-</div>
+         <a href="https://luiswelbankscom.files.wordpress.com/2020/07/slide8.png" data-rel="" title="Optical spectra"><img alt="Optical spectra" src="https://luiswelbankscom.files.wordpress.com/2020/07/slide8.png" title="Optical spectra"></a>
+<div class="caption">Optical spectra</div>
+      </div>
+      <div class="clearfix visible-col4"></div>
+      <div class="thumbnail">
+         <a href="https://luiswelbankscom.files.wordpress.com/2020/07/slide9-1.png" data-rel="" title="Mass-Metallicity Trend"><img alt="Mass-Metallicity Trend" src="https://luiswelbankscom.files.wordpress.com/2020/07/slide9-1.png" title="Mass-Metallicity Trend"></a>
+<div class="caption">Mass-Metallicity Trend</div>
+      </div>
+      <div class="thumbnail">
+         <a href="https://luiswelbankscom.files.wordpress.com/2020/07/slide10-1.png" data-rel="" title="H2O Trend"><img alt="H2O Trend" src="https://luiswelbankscom.files.wordpress.com/2020/07/slide10-1.png" title="H2O Trend"></a>
+<div class="caption">H2O Trend</div>
+      </div>
+      <div class="thumbnail">
+         <a href="https://luiswelbankscom.files.wordpress.com/2020/07/slide11-1.png" data-rel="" title="Alkali Trend"><img alt="Alkali Trend" src="https://luiswelbankscom.files.wordpress.com/2020/07/slide11-1.png" title="Alkali Trend"></a>
+<div class="caption">Alkali Trend</div>
+      </div>
+      <div class="thumbnail">
+         <a href="https://luiswelbankscom.files.wordpress.com/2020/07/slide12-1.png" data-rel="" title="Conclusions I"><img alt="Conclusions I" src="https://luiswelbankscom.files.wordpress.com/2020/07/slide12-1.png" title="Conclusions I"></a>
+<div class="caption">Conclusions I</div>
+      </div>
+      <div class="clearfix visible-col4"></div>
+      <div class="thumbnail">
+         <a href="https://luiswelbankscom.files.wordpress.com/2020/07/slide13-1.png" data-rel="" title="Conclusions II"><img alt="Conclusions II" src="https://luiswelbankscom.files.wordpress.com/2020/07/slide13-1.png" title="Conclusions II"></a>
+<div class="caption">Conclusions II</div>
+      </div>
+      <div class="thumbnail">
+         <a href="https://luiswelbankscom.files.wordpress.com/2020/07/slide14-1.png" data-rel="" title="Conclusions III"><img alt="Conclusions III" src="https://luiswelbankscom.files.wordpress.com/2020/07/slide14-1.png" title="Conclusions III"></a>
+<div class="caption">Conclusions III</div>
       </div>
       <div class="clearfix visible-col4"></div>
    </div>
 </div>
+</div>
+<div id="wb_Image5" style="display:inline-block;width:940px;height:287px;z-index:21;">
+<a href="https://iopscience.iop.org/article/10.3847/2041-8213/ab5a89" target="_blank"><img src="https://luiswelbankscom.files.wordpress.com/2020/07/capture.png" id="Image5" alt=""></a>
 </div>
 </div>
 </div>
@@ -218,23 +241,20 @@ $(document).ready(function()
 <span style="color:#FFFFFF;font-family:Arial;font-size:19px;"><strong>References</strong></span>
 </div>
 <div id="wb_Text10">
-<span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br>Someone and someone et al<br>Someone and someone et al<br>Someone and someone et al<br></span>
+<span style="color:#FFFFFF;font-family:Arial;font-size:13px;">Allard N. F., Spiegelman F. and Kielkopf J. F. 2016 A&amp;A 589 A21<br><br>Allard N. F., Spiegelman F., Leininger T. and Molliere P. 2019 A&amp;A 628 A120<br><br>Asplund M., Grevesse N., Sauval A. J. and Scott P. 2009 ARA&amp;A 47 481<br><br>Atreya S. K., Crida A., Guillot T. et al 2018 Saturn in the 21st Century ed K. H. Baines et al (Cambridge: Cambridge Univ. Press) 5<br><br>Atreya, S. K. and A. S. Wong 2005, Space Sci. Rev., 116, 121–136.<br><br>Barber R. J., Strange J. K., Hill C. et al 2014 MNRAS 437 1828<br><br>Madhusudhan N., Crouzet N., McCullough P. R., Deming D. and Hedges C. 2014b ApJL 791 L9<br><br>Owen, T., P. Mahaffy, H. Niemann et al. 1999, Nature, 402, 269–270.<br><br>Pinhas A., Rackham B. V., Madhusudhan N. and Apai D. 2018 MNRAS 480 5314<br><br>Richard C., Gordon I. E., Rothman L. S. et al 2012 JQSRT 113 1276<br><br>Rothman L. S., Gordon I. E., Barber R. J. et al 2010 JQSRT 111 2139<br><br>Yurchenko S. N., Barber R. J. and Tennyson J. 2011 MNRAS 413 1828<br><br>Yurchenko S. N. and Tennyson J. 2014 MNRAS 440 1649<br></span>
 </div>
 </div>
 <div class="col-2">
 <div id="wb_Text7">
-<span style="color:#FFFFFF;font-family:Arial;font-size:19px;"><strong>Useful Links</strong></span>
-</div>
-<div id="wb_Text9">
-<span style="background-color:#2F3337;color:#FFFFFF;font-family:Arial;font-size:13px;">LOREM IPSUMLOREM IPSUM</span><span style="background-color:#2F3337;color:#000000;font-family:Arial;font-size:13px;"><br></span><span style="background-color:#2F3337;color:#FFFFFF;font-family:Arial;font-size:13px;">LOREM IPSUM</span><span style="background-color:#2F3337;color:#000000;font-family:Arial;font-size:13px;"><br></span><span style="background-color:#2F3337;color:#FFFFFF;font-family:Arial;font-size:13px;">LOREM IPSUM</span><span style="background-color:#2F3337;color:#000000;font-family:Arial;font-size:13px;"><br></span><span style="background-color:#2F3337;color:#FFFFFF;font-family:Arial;font-size:13px;">LOREM IPSUM</span><span style="background-color:#2F3337;color:#000000;font-family:Arial;font-size:13px;"><br></span><span style="background-color:#2F3337;color:#FFFFFF;font-family:Arial;font-size:13px;">LOREM IPSUM</span><span style="background-color:#2F3337;color:#000000;font-family:Arial;font-size:13px;"><br></span><span style="background-color:#2F3337;color:#FFFFFF;font-family:Arial;font-size:13px;">LOREM IPSUM</span><span style="background-color:#2F3337;color:#000000;font-family:Arial;font-size:13px;"><br></span><span style="background-color:#2F3337;color:#FFFFFF;font-family:Arial;font-size:13px;">LOREM IPSUM</span><span style="background-color:#2F3337;color:#000000;font-family:Arial;font-size:13px;"><br></span><span style="background-color:#2F3337;color:#FFFFFF;font-family:Arial;font-size:13px;">LOREM IPSUM</span><span style="background-color:#2F3337;color:#000000;font-family:Arial;font-size:13px;"><br></span><span style="background-color:#2F3337;color:#FFFFFF;font-family:Arial;font-size:13px;">LOREM IPSUM</span><span style="background-color:#2F3337;color:#000000;font-family:Arial;font-size:13px;"><br></span>
+<span style="color:#FFFFFF;font-family:Arial;font-size:19px;"><strong>Read the paper <a href="https://iopscience.iop.org/article/10.3847/2041-8213/ab5a89">here </a></strong></span>
 </div>
 </div>
 <div class="col-3">
 <div id="wb_Text6">
 <span style="color:#FFFFFF;font-family:Arial;font-size:19px;"><strong>Contact me</strong></span>
 </div>
-<div id="wb_FontAwesomeIcon2" style="display:inline-block;width:16px;height:16px;text-align:center;z-index:26;">
-<a href="./index.html"><div id="FontAwesomeIcon2"><i class="fa fa-twitter"></i></div></a>
+<div id="wb_Text9">
+<span style="color:#FFFFFF;font-family:Arial;font-size:13px;">Email me <a href="mailto:luis.welbanks@ast.cam.ac.uk">here</a><br><br>Personal website <a href="https://luiswelbanks.com/">luiswelbanks.com</a><br><br>or if you prefer, sometimes I am on <a href="https://twitter.com/luis_wel">Twitter</a></span>
 </div>
 </div>
 </div>
