@@ -22,7 +22,7 @@ body
    background-repeat: repeat;
    background-position: center center;
    background-attachment: fixed;
-   background-position: 90% 0;
+   background-position: 50% -10%;
    background-size: cover;
    border: 0px solid #CCCCCC;
    box-sizing: border-box;
