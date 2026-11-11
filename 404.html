@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Page not found</title>
+<script>
+  // Top-level addresses on luiswel.github.io go to the new site.
+  // Deeper paths are left alone: project sites (luiswel.github.io/<repo>/)
+  // without their own 404 page fall back to this file, and a missing page
+  // there should not bounce visitors to luiswelbanks.com.
+  var parts = location.pathname.split("/").filter(Boolean);
+  if (parts.length <= 1) location.replace("https://luiswelbanks.com/");
+</script>
+</head>
+<body>
+<p>Page not found. Luis Welbanks's website is <a href="https://luiswelbanks.com/">luiswelbanks.com</a>.</p>
+</body>
+</html>
